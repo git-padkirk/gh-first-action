@@ -7,4 +7,7 @@ jobs:
       - name: Print greetings
         run: echo "Welcome to Github !!!"
       - name: Print goodbye
-        run: echo "Bye Bye!!"
+        run: |
+              echo "Bye Bye!!"
+              echo "Done Bye!!"
+              
